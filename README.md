@@ -8,3 +8,8 @@ To run this project you need to change/ add some information to "hibernate.prope
 - Change "hibernate.hbm2ddl.auto" to "create" for the first time to let the tables be created. After the first run, change it
 back to "update."
 
+Note: To have the email feature of the system working fine you need to consider the following points:
+- When you signin to the system, your account email and password must be the real available email.
+- You must change the settings of the account email "Send mail from your device or application" as follows:
+    https://support.google.com/a/answer/176600?hl=en
+
